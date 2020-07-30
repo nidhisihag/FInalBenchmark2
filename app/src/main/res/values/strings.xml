@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FinalBenchMark2</string>
+    <string name="hardwareInfo">hardwareInfo</string>
+
+    <string name="spinnerTitle">installedApps</string>
+    <string name="app_name1">ListView</string>
+    <string-array name="array_hardware">
+        <item>Camera Info</item>
+        <item>Sensor Info</item>
+
+    </string-array>
+</resources>

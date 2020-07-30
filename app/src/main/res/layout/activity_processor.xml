@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:layout_height="match_parent">
+
+
+    <com.example.finalbenchmark2.Processor.MultiSelectionSpinner
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp" />
+    <Button
+    android:id="@+id/btnSubmit"
+    android:layout_width="wrap_content"
+    android:layout_below="@+id/spinner1"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:text="Submit"
+    android:textColor="@color/colorAccent"
+    />
+
+    <Button
+        android:id="@+id/btnInstall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="38dp"
+        android:layout_toRightOf="@+id/btnSubmit"
+        android:background="@color/colorPrimaryDark"
+        android:text="Install"
+        android:textColor="@color/colorAccent" />
+    <TextView
+        android:id="@+id/btnInstall1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:scrollbars = "vertical"
+
+        />
+
+</RelativeLayout>

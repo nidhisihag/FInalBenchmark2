@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="185dp"
+        android:layout_height="216dp"
+        tools:layout_editor_absoluteX="170dp"
+        android:id="@+id/startCameraTest"
+        tools:layout_editor_absoluteY="189dp">
+
+        <ImageView
+            android:id="@+id/startCameraTestimg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/cam"
+ />
+
+<ImageView
+    android:id="@+id/tick"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+    android:visibility="invisible"
+    android:src="@drawable/tick"
+    />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="209dp"
+        android:layout_height="210dp"
+        android:id="@+id/processor"
+        android:layout_toRightOf="@+id/startCameraTest"
+        >
+        <ImageButton
+            android:id="@+id/startProcessorTest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+
+            android:src="@drawable/processor"
+            tools:layout_editor_absoluteX="170dp"
+            tools:layout_editor_absoluteY="189dp" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="185dp"
+        android:layout_height="216dp"
+        tools:layout_editor_absoluteX="170dp"
+        android:id="@+id/batterytest"
+        android:layout_below="@+id/startCameraTest"
+        tools:layout_editor_absoluteY="189dp">
+        <ImageButton
+            android:id="@+id/startbattery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+
+            android:src="@drawable/battery"
+            tools:layout_editor_absoluteX="170dp"
+            tools:layout_editor_absoluteY="189dp" />
+        </FrameLayout>
+</RelativeLayout>

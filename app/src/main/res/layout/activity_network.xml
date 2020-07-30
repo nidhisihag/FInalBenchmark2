@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    tools:context=".Network.SimStrength">
+    <TextView
+        android:id="@+id/printStrength"
+        android:layout_below="@+id/signalStrength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:visibility="invisible"
+        />
+    <Button
+        android:id="@+id/signalStrength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signal Strength"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/statechange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signalStrength"
+        android:layout_marginTop="44dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="State Change"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/callinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/statechange"
+        android:layout_marginTop="71dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Call Info"
+        android:textColor="@color/colorAccent" />
+</RelativeLayout>
